@@ -5,6 +5,12 @@ from sklearn import metrics
 
 
 def run_test():
+    """Run the evaluation function on test data
+
+    Returns:
+        The prediction result (group numbers)
+
+    """
     # Load the pretrained knn model
     loaded_model = pickle.load(open(config.SAVED_MODEL_PATH +
                                     "default_knn_model.sav", 'rb'))

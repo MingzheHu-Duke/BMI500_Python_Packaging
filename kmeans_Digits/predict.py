@@ -4,6 +4,16 @@ from kmeans_Digits.configuration import config
 
 
 def run_test(_data, _label):
+    """Do the prediction with the pretrained model
+
+    Args:
+        _data: Numpy array (n, 64)
+        _label: Numpy array (n, 1)
+
+    Returns:
+        The predition result (group labels)
+
+    """
     if _data.shape[1] != 64:
         print("The number of features is incorrect!")
         return

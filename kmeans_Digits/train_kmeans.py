@@ -29,6 +29,12 @@ print("The first data in the set: ", data[1])
 
 
 def run_training():
+    """ Train and save the K means model
+
+    Returns:
+        None
+
+    """
     # Train Test split
     from sklearn.model_selection import train_test_split
 

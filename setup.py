@@ -10,9 +10,9 @@ from setuptools import find_packages, setup
 # Package meta-data.
 NAME = 'kmeans_Digits'
 DESCRIPTION = 'Train and deploy k means model.'
-URL = ''
-EMAIL = 'ashu.iitkgp@gmail.com'
-AUTHOR = 'Ashutosh Kumar'
+URL = 'https://github.com/MingzheHu-Duke/BMI500_Python_Packaging/'
+EMAIL = 'mingzhehu511@gmail.com'
+AUTHOR = 'Mingzhe Hu'
 REQUIRES_PYTHON = '>=3.6.0'
 
 
@@ -71,7 +71,7 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: CPython',
         'Programming Language :: Python :: Implementation :: PyPy'
     ],

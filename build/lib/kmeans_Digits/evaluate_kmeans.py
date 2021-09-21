@@ -20,7 +20,7 @@ def run_test():
     print("Adjusted rand score:{:.2}".format(metrics.adjusted_rand_score(y_test, y_pred)))
     print("Homogeneity score:{:.2} ".format(metrics.homogeneity_score(y_test, y_pred)))
     print("Completeness score: {:.2} ".format(metrics.completeness_score(y_test, y_pred)))
-    return y_pred
+    return
 
 
 if __name__ == "__main__":

@@ -20,7 +20,7 @@ def run_test(_data, _label):
     y_pred = loaded_model.predict(_data)
     print("The prediction result is: ", y_pred)
     print("{} digits have been clustered!".format(len(y_pred)))
-    return y_pred
+    return
 
 
 if __name__ == "__main__":

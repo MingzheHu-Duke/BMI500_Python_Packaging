@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: kmeans-Digits
+Version: 1.0
+Summary: Train and deploy k means model.
+Home-page: https://github.com/MingzheHu-Duke/BMI500_Python_Packaging/
+Author: Mingzhe Hu
+Author-email: mingzhehu511@gmail.com
+License: MIT
+Description: 
+        # BMI500_Python_Packaging
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

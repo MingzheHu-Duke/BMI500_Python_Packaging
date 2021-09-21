@@ -10,8 +10,8 @@ from sklearn import metrics
 import pandas as pd
 import pickle
 
-from KNN_Digits.visualization import visualize
-from KNN_Digits.configuration import config
+from kmeans_Digits.visualization import visualize
+from kmeans_Digits.configuration import config
 
 
 # Load the data from the sklearn dataset

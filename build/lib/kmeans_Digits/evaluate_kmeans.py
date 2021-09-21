@@ -5,6 +5,12 @@ from sklearn import metrics
 
 
 def run_test():
+    """Run the evaluation function on test data
+
+    Returns:
+        The prediction result (group numbers)
+
+    """
     # Load the pretrained knn model
     loaded_model = pickle.load(open(config.SAVED_MODEL_PATH +
                                     "default_knn_model.sav", 'rb'))
@@ -20,7 +26,7 @@ def run_test():
     print("Adjusted rand score:{:.2}".format(metrics.adjusted_rand_score(y_test, y_pred)))
     print("Homogeneity score:{:.2} ".format(metrics.homogeneity_score(y_test, y_pred)))
     print("Completeness score: {:.2} ".format(metrics.completeness_score(y_test, y_pred)))
-    return
+    return y_pred
 
 
 if __name__ == "__main__":

@@ -6,7 +6,6 @@ kmeans_Digits/VERSION
 kmeans_Digits/__init__.py
 kmeans_Digits/evaluate_kmeans.py
 kmeans_Digits/predict.py
-kmeans_Digits/scratch_file.py
 kmeans_Digits/train_kmeans.py
 kmeans_Digits.egg-info/PKG-INFO
 kmeans_Digits.egg-info/SOURCES.txt

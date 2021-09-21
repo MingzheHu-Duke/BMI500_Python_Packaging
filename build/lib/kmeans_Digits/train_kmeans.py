@@ -29,6 +29,12 @@ print("The first data in the set: ", data[1])
 
 
 def run_training():
+    """ Train and save the K means model
+
+    Returns:
+        None
+
+    """
     # Train Test split
     from sklearn.model_selection import train_test_split
 
@@ -55,6 +61,7 @@ def run_training():
     # Let's save the model
     pickle.dump(model, open(config.SAVED_MODEL_PATH +
                             "default_knn_model.sav", 'wb'))
+    print("Training Finished! Model Saved at ./kmeans_model")
 
 
 if __name__ == "__main__":

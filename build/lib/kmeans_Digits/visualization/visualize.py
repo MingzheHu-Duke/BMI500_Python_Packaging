@@ -3,6 +3,17 @@ import matplotlib.pyplot as plt
 
 
 def print_digits(images, _labels, _num=10):
+    """Visualize the hand written digits together with the label
+
+    Args:
+        images: numpy array of the hand written digits images
+        _labels: The corresponding labels of the images
+        _num: Number of images to display
+
+    Returns:
+        None
+
+    """
     fig = plt.figure(figsize=(16, 16))
     fig.subplots_adjust(left=0, right=1, bottom=0, top=1, hspace=0.05,
                         wspace=0.05)

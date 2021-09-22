@@ -2,6 +2,7 @@ MANIFEST.in
 README.md
 requirements.txt
 setup.py
+./requirements.txt
 kmeans_Digits/VERSION
 kmeans_Digits/__init__.py
 kmeans_Digits/evaluate_kmeans.py

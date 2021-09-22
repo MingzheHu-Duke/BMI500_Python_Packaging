@@ -17,7 +17,10 @@ A description of this public dataset is here: https://scikit-learn.org/stable/mo
 
 ## Usage (Important):  
 **Minimum Python Requirement:** 3.7.12 (best if python 3.8)  
-**Upgrade Your pip!** $pip install --upgrade pip
+**Upgrade Your pip!** $pip install --upgrade pip  
+  
+Here is the video guide:  
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/XVJkmyreTvw/0.jpg)](http://www.youtube.com/watch?v=XVJkmyreTvw "Video Tutorial")
 
 To download and install this package, there are two ways:  
 <strike>**1. Install via PYPI:**</strike>  
